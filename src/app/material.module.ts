@@ -7,11 +7,14 @@ import {MatCheckboxModule} from '@angular/material/checkbox';
 import {MatRadioModule} from '@angular/material/radio';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatCardModule} from '@angular/material/card';
+import {MatToolbarModule} from '@angular/material/toolbar';
+import {MatDatepickerModule} from '@angular/material/datepicker';
+import {MatMomentDateModule} from '@angular/material-moment-adapter'
 
 
 
 
-const MATERIAL = [MatButtonModule, MatIconModule, MatInputModule, MatCheckboxModule, MatRadioModule, MatFormFieldModule, MatCardModule];
+const MATERIAL = [MatButtonModule, MatIconModule, MatInputModule, MatCheckboxModule, MatRadioModule, MatFormFieldModule, MatCardModule, MatToolbarModule, MatDatepickerModule, MatMomentDateModule];
 
 @NgModule ({
     imports: MATERIAL,

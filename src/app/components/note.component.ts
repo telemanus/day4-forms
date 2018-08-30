@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+//import { NgForm } from '@angular/forms';
+
 
 @Component({
   selector: 'app-note',
@@ -11,5 +13,8 @@ export class NoteComponent implements OnInit {
 
   ngOnInit() {
   }
+
+  
+
 
 }
